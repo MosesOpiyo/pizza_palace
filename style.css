@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 20vh;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px 0 0;
+    margin-right: 0;
+    background: white;
+}
+
+.navbar h1 {
+    color: red;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+    margin: 40px 5px;
+    color: white;
+    padding-right: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.navbar button {
+    width: 180px;
+    font-size: 20px;
+    padding: 12px 0;
+    background: red;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.row {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+}
+
+.col {
+    background-color: white;
+}
+
+.card {
+    margin: 50px;
+    background-color: red;
+    height: 30vh;
+    border-radius: 30px;
+}
+
+.card h1 {
+    margin: 40px;
+}
+
+.card h2 {
+    margin: 40px;
+    font-size: 60px;
+}
+
+.card p {
+    position: relative;
+    top: 25px;
+    text-align: right;
+    margin: 40px;
+    font-size: 25px;
+}
+
+.order {
+    margin-top: 100px;
+}
+
+.card {
+    background-color: red;
+}
+
+.card h1 {
+    position: relative;
+    top: 170px;
+    left: 50px;
+    color: white;
+}
+
+.order {
+    margin-top: 250px;
+}
+
+.order h1 {
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.order h3 {
+    margin-left: 40px;
+}
+
+.order input {
+    position: relative;
+    left: 50%;
+    margin: 40px;
+    width: 400px;
+    height: 90px;
+}
+
+button {
+    margin-right: 260px;
+    width: 180px;
+    font-size: 20px;
+    padding: 12px 0;
+    background: orangered;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    transition: 0.25s;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+}
