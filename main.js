@@ -36,7 +36,7 @@ function totalAmount() {
     alert(
         "You have ordered " +
         getQuantity("") +
-        "pizza" +
+        " pizza" +
         "" +
         " amounting to ksh. " +
         total +
